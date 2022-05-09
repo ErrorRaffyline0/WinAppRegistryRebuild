@@ -1,7 +1,7 @@
 # WinAppRegistryRebuild
 WinAppRegistry attempts to rebuild some of the registry of programs that lost their registry info when they were copied into Windows installation without a proper installation, or after a modification to the registry.
 
-The most important part is that it will rebuild the path of programs in HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths. It will check shortcuts and paths of files in C:\ProgramData\Microsoft\Windows\Start Menu, HKEY_CLASSES_ROOT\Applications and from other sources. It will also automatically rebuild app paths from popular programs by checking if their default installation directories are present. There will be a feature to individually approve every program that WinAppRegistry tries to rebuild, and to view and undo changes that it made to the registry.
+The most important part is that it will rebuild the path of programs in HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths. It will check shortcuts and paths of files in C:\ProgramData\Microsoft\Windows\Start Menu, HKEY_CLASSES_ROOT\Applications, HKEY_CLASSES_ROOT\Local Settings\Software\Microsoft\Windows\Shell\MuiCache and from other sources. It will also automatically rebuild app paths from popular programs by checking if their default installation directories are present. There will be a feature to individually approve every program that WinAppRegistry tries to rebuild, and to view and undo changes that it made to the registry.
 
 Other plans include rebuilding file associations and icons. More stuff may be added.
 
